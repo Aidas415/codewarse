@@ -1,0 +1,14 @@
+{
+  "name": "codewarse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "code": "node --watch ./codewars.js",
+    "js": "node --watch ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
