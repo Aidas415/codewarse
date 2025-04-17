@@ -47,7 +47,7 @@ console.log(position("z"),"Position of alphabet: 26");
 console.log(position("e"),"Position of alphabet: 5");
 
 ////////////////////
-
+/*
 function findNeedle(haystack) {
     let array = haystack;   
     let result = 0;  
@@ -66,23 +66,45 @@ console.log(findNeedle(haystack_1), 'found the needle at position 3');
 console.log(findNeedle(haystack_2), 'found the needle at position 5');
 console.log(findNeedle(haystack_3), 'found the needle at position 30');
 console.log(findNeedle(haystack_4), 'found the needle at position 5');
+*/
+console.log('---------');
 
+function evalObject(value){
+  var result = 0;
+  switch(value.operation){
+    case'+': result = value.a + value.b;
+      break;
+    case'-': result = value.a - value.b;
+      break
+    case'/': result = value.a / value.b;
+      break;
+    case'*': result = value.a * value.b;
+      break;
+    case'%': result = value.a % value.b;
+      break;
+    case'^': result = Math.pow(value.a, value.b);
+  }
+  return result;
+}
 
+console.log(evalObject({a:1,b:1,operation:'+'}), 2, 'Return the evaluated string as a number!');
+console.log(evalObject({a:1,b:1,operation:'-'}), 0, 'Return the evaluated string as a number!');
+console.log(evalObject({a:1,b:1,operation:'/'}), 1, 'Return the evaluated string as a number!');
+console.log(evalObject({a:1,b:1,operation:'*'}), 1, 'Return the evaluated string as a number!');
+console.log(evalObject({a:1,b:1,operation:'%'}), 0, 'Return the evaluated string as a number!');
+console.log(evalObject({a:1,b:1,operation:'^'}), 1, 'Return the evaluated string as a number!');
 
+///////////////////
 
+const solve = (x, y) => x // y
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(solve(2, 1), 2);
+console.log(solve(2, 4), 0.5);
+console.log(solve(42, 0), Infinity);
+console.log(solve(0, 8), 0);
+console.log(solve(7, 2), 3.5);
+console.log(solve(4.2, 1), 4.2);
+console.log(solve(9999, 11), 909);
 
 
 
