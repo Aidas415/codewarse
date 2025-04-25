@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "uzduotys": "node --watch ./uzduotys.js", 
+    "array": "node --watch ./withArray.js",
     "matematika": "node --watch ./matematika.js",
     "connect": "node --watch ./connect.js",
     "find": "node --watch ./find.js",

@@ -59,4 +59,78 @@ console.log(solve(4.2, 1), 4.2);
 console.log(solve(9999, 11), 909);
 
 
+/*
+// grąžinti tekstą be balsių. Raidė "y" nėra skaitoma balsiu.
+function disemvowel(str) {
+
+  return str;
+}
+
+console.log(disemvowel('respublika'), 'rspblk');
+console.log(disemvowel("This website is for losers LOL!"), "Ths wbst s fr lsrs LL!")
+console.log(disemvowel("No offense but,\nYour writing is among the worst I've ever read"), "N ffns bt,\nYr wrtng s mng th wrst 'v vr rd")
+console.log(disemvowel("What are you, a communist?"), "Wht r y,  cmmnst?")
+*/
+
+/*
+Transporto priemones:
+   Automobiliai:
+      - Audi
+      - Volksvagen
+      - Renault
+   Motociklai:
+      - Suzuki
+      - Kawasaki
+      - Jawa
+      - Vespa
+   Sunkvezimiai:
+      - Volvo
+      - Man
+      - Scania
+*/
+
+
+//constructor (firma, modelis, gamybosMetai, spalva, variklioTuris, specifikacija, kuras, ausinimas, svoris, ratai) {
+
+
+
+//  onstructor (firma, specifikacija, spalva, variklioTuris, galingumas, kuroTipas, transmisija, ratuSistema){
+//    this.firma = firma;
+//    this.specifikacija = specifikacija;
+//    this.spalva = spalva;
+//    this.variklioTuris = variklioTuris;
+//    this.galingumas = galingumas;
+//    this.kuroTipas = kuroTipas;
+//    this.transmisija = transmisija;
+//    this.ratuSistema = ratuSistema;
+
+
+function feast(beast, dish) {
+  return beast.at(0) == dish.at(0) && beast.at(-1) == dish.at(-1)
+  }
+
+  function feast(beast, dish) {
+    return beast[0]===dish[0] && beast.slice(-1)===dish.slice(-1);
+  }
+
+  function feast(beast, dish) {
+    return dish.startsWith(beast[0]) && dish.endsWith(beast[beast.length-1])
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
