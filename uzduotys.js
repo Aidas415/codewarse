@@ -11,7 +11,7 @@ function zaidziame(n) {
             burtas = 'popierius';
             break;
         case 2:
-            burtas = 'sulinys';
+            burtas = 'žirklės';
             break;
     }
       
@@ -36,8 +36,11 @@ function zaidziame(n) {
 
 }
 
-console.log(zaidziame())
-const n = 'šulinys'
+
+const n = 'žirklės';
+//const n = 'akmuo';
+console.log(zaidziame(n))
+
 
     
 // UZD.2) kiek žmonių reikės, norint pakelti tam tikro svorio krovinį
@@ -86,7 +89,7 @@ function namoKaina(plotis, ilgis, aukstis, plytuKaina, languKaina, duruKaina){
 console.log(namoKaina(8, 13, 7, 0.3, 245, 170));
 
 //console.log(kainaSienu)
-/*
+
 // UZD.4) Kalėdų senelis visus sveikina su gimtadieniu. Kam sukako 1, 5, 10, 15, 16, 18, 20 ir kiti jubiliejiniai metai, gana nuostabias dovanas (vienaragis, pilis, mašina, laivas, lėktuvas, kelionė į kosmosą), o kiti nelabai kokias dovanas (kojinės, ananasas, skaityta knyga, pieštukas, kempinė, žibintuvėlis)
 
 function gimtadienioDovana(metai){
@@ -116,10 +119,11 @@ function gimtadienioDovana(metai){
             case 6:
                 luxGift = 'Sala';
                 break;
+            result = luxGift;
         }
-
-        
-    } {
+        return luxGift;
+            
+    } else {
    
      
         simplGift = Math.floor(Math.random() * 7);
@@ -146,13 +150,20 @@ function gimtadienioDovana(metai){
                 simplGift = 'Kamuolys';
                 break;
         }
+        return simplGift;
     }
+    
 }
 
+//console.log(gimtadienioDovana(1))
+//console.log(gimtadienioDovana(15))
+//console.log(gimtadienioDovana(16))
+//console.log(gimtadienioDovana(33))
+//console.log(gimtadienioDovana(18))
+//console.log(gimtadienioDovana(25))
+//console.log(gimtadienioDovana(44))
+//console.log(gimtadienioDovana(50))
+//console.log(gimtadienioDovana(51))
+//console.log(gimtadienioDovana(100))
 
-
-console.log(gimtadienioDovana(50))
-//console.log(simplGift);
-
-*/
 
