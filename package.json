@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "if": "node --watch ./if.js",
+    "typeof": "node --watch ./typeof.js", 
     "uzduotys": "node --watch ./uzduotys.js", 
     "array": "node --watch ./withArray.js",
     "matematika": "node --watch ./matematika.js",

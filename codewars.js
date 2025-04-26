@@ -72,37 +72,7 @@ console.log(disemvowel("No offense but,\nYour writing is among the worst I've ev
 console.log(disemvowel("What are you, a communist?"), "Wht r y,  cmmnst?")
 */
 
-/*
-Transporto priemones:
-   Automobiliai:
-      - Audi
-      - Volksvagen
-      - Renault
-   Motociklai:
-      - Suzuki
-      - Kawasaki
-      - Jawa
-      - Vespa
-   Sunkvezimiai:
-      - Volvo
-      - Man
-      - Scania
-*/
 
-
-//constructor (firma, modelis, gamybosMetai, spalva, variklioTuris, specifikacija, kuras, ausinimas, svoris, ratai) {
-
-
-
-//  onstructor (firma, specifikacija, spalva, variklioTuris, galingumas, kuroTipas, transmisija, ratuSistema){
-//    this.firma = firma;
-//    this.specifikacija = specifikacija;
-//    this.spalva = spalva;
-//    this.variklioTuris = variklioTuris;
-//    this.galingumas = galingumas;
-//    this.kuroTipas = kuroTipas;
-//    this.transmisija = transmisija;
-//    this.ratuSistema = ratuSistema;
 
 
 function feast(beast, dish) {

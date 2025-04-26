@@ -167,3 +167,23 @@ function gimtadienioDovana(metai){
 //console.log(gimtadienioDovana(100))
 
 
+
+console.log(`I\n.I\n2.I\n3..I\n4...I\n5....I\n6.....I\n`)
+
+
+console.log(`I\n I\n  I\n   I\n    I\n     I\n      I\n`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
